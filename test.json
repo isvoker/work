@@ -1,0 +1,56 @@
+{ 
+    "rows": {
+		"1a01": {
+			"name": "Фамилия имя отчество",
+			"type": "string",
+			"maxlength": 128,
+			"required": true
+		},
+		"1a02": {
+			"name": "Контактный телефон",
+			"type": "string",
+			"maxlength": 64,
+			"required": true
+		},
+		"1a03": {
+			"name": "Email",
+			"type": "string",
+			"maxlength": 64,
+			"required": true
+		},
+		"1a04": {
+			"name": "Файлы",
+			"type": "string",
+			"maxlength": 128,
+			"required": true
+		},
+		"1a05": {
+			"name": "Контактный телефон",
+			"type": "string",
+			"maxlength": 64,
+			"required": true
+		}
+    },
+
+
+    "stages": {
+    "1a": [{
+        "title": "Форма-1",
+        "rows": [ "_municipality_", "_location_", "_town_", "_contender_" ]
+    }, {
+        "title": "Форма-2",
+        "rows": [ "1a01", "1a02", "1a03", "1a04" ]
+    }],
+
+    "1b": [{
+        "title": "Форма-3",
+        "rows": [ "1b01", "1b02", "1b03", "1b04", "1b05", "1b06" ]
+    }],
+
+    "1c": [{
+        "title": "Форма-4",
+        "rows": [ "1c01", "1c03", "1c04", "1c05", "1c06", "1c07", "1c08", "1c09" ]
+    }]
+
+}
+}
